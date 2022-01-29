@@ -15,7 +15,7 @@ Install with [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
 " requires
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
-Plug 'kyazdani42/nvim-tree.lua'
+Plug ' meanindra/nvim-tree '
 ```
 
 Install with [packer](https://github.com/wbthomason/packer.nvim):
