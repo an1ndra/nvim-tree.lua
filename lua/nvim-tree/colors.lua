@@ -57,7 +57,7 @@ local function get_links()
     EmptyFolderName = 'Directory',
     OpenedFolderName = 'Directory',
     Normal = 'Normal',
-    NormalNC = 'NormalNC',
+    NormalNC = 'NvimTreeNormal',
     EndOfBuffer = 'EndOfBuffer',
     CursorLine = 'CursorLine',
     VertSplit = 'VertSplit',
@@ -70,13 +70,9 @@ local function get_links()
     FileDeleted = 'NvimTreeGitDeleted',
     Popup = 'Normal',
     GitIgnored = 'Comment',
-    LspDiagnosticsError = "LspDiagnosticsDefaultError",
-    LspDiagnosticsWarning = "LspDiagnosticsDefaultWarning",
-    LspDiagnosticsInformation = "LspDiagnosticsDefaultInformation",
-    LspDiagnosticsHint = "LspDiagnosticsDefaultHint",
     StatusLine = "StatusLine",
     StatusLineNC = "StatusLineNC",
-    SignColumn = 'SignColumn',
+    SignColumn = 'NvimTreeNormal',
   }
 end
 
